@@ -1,4 +1,0 @@
-/// class Cajero - 
-class Cajero {
-};
-
