@@ -1,0 +1,4 @@
+/// class Inventario - 
+class Inventario {
+};
+
