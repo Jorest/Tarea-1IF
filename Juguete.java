@@ -1,51 +1,61 @@
 /// class Juguete - 
 class Juguete {
   // Attributes
-private:
-  float valorUnitario;
-  float valorAdicional;
-  int codigo;
-  int edadRecomendada;
-  int numeroProveedor;
-  int cantidad;
+	private float valorUnitario;
+	private float valorAdicional;
+	private int codigo;
+	private int edadRecomendada;
+	private int numeroProveedor;
+	private int cantidad;
 
-  // Operations
-public:
-  float getValorAdicional(){
+	  // Operations
+
+	public float getValorAdicional(){
+		return valorAdicional;  
+	  }
 	  
-  }
-  void setValorAdicional(float f){
-  
-  }
-  float getValorUnitario(){
+	public void setValorAdicional(float f){
+		valorAdicional = f;
+	  }
 	  
-  }
-  void setValorUnitario(float f){
+	public float getValorUnitario(){
+		return valorUnitario;
+	  }
 	  
-  }
-  int getEdadRecomendado(){
+	public void setValorUnitario(float f){
+		valorUnitario=f;
+	  }
 	  
-  }
-  void setEdadRecomendado(int i){
+	public int getEdadRecomendada(){
+		return edadRecomendada;
+	  }
 	  
-  }
-  int getCodigo(){
+	public void setEdadRecomendada(int i){
+		edadRecomendada= i;
+	  }
 	  
-  }
-  void setCodigo(int i){
-  
-  }
-  void setNumeroProveedor(int i){
+	public int getCodigo(){
+		return codigo;
+	  }
 	  
-  }
-  int getNumeroProveedor(){
+	public void setCodigo(int i){
+		codigo= i;
+	  }
 	  
-  }
-  int getCantidad(){
+	public void setNumeroProveedor(int i){
+		numeroProveedor=i;
+	  }
 	  
-  }
-  void setCantidad(int i){
+	public int getNumeroProveedor(){
+		return numeroProveedor;
+	  }
 	  
+	public int getCantidad(){
+		return cantidad;
+	  }
+	  
+	public void setCantidad(int i){
+	 cantidad=i;
   }
 };
 
