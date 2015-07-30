@@ -1,4 +1,4 @@
-/// class Director - 
+/// class Director. 
 class Director {
 };
 
